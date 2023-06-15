@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap" rel="stylesheet">
+    <title>Happy Home Services</title>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="navbar">
+            <div class="nav-logo">
+               <a href="index.html"><img src="media/Logo3.png" alt="logo"></a>
+            </div>
+            <i class="fa fa-bars" id="open" onclick="show()" aria-hidden="true"></i>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li id="close" onclick="hide()"> <i class="fa fa-times" aria-hidden="true"></i></li>
+                    <li> <a href="index.html" >
+                            Home
+                        </a></li>
+                    <li><a href="about.html">
+                            About Us
+                        </a></li>
+                    <li> <a href="service.html" id="active">
+                            Services
+                        </a></li>
+                    <li> <a href="pricing.html" >
+                            Pricing
+                        </a></li>
+                    <li> <a href="contact.html">
+                            Contact Us
+                        </a></li>
+
+                </ul>
+                <button type="button" class="button">Call Now</button>
+                <button type="button" class="button"><a href="signup.html"> Log in </a> </button>
+
+            </div>
+        </div>
+        <div class="banner-title">
+            <h2> Ambient Homes <span>  Needs Perfect </span> Service </h2>
+            <button type="button" class="button"> <a href="#services"> Select a Service </a> </button>
+        </div>
+    </div>
+
+
+    <script>
+
+        var temp = document.getElementById("nav-links");
+        function show() {
+            temp.style.display = "block";
+            document.getElementById("open").style.display = "none"
+            return;
+        }
+
+        function hide() {
+            temp.style.display = "none";
+            document.getElementById("open").style.display = "inline-block";
+            return;
+        }
+
+    </script>
+
+    <main>
+        <h1>Our Services</h1>
+    <div class="service-container">
+        <h2>
+            Home Maintainance Services
+        </h2>
+        <div class="service-flex" id="services">
+            <div class="service-items">
+                <img src="media/plumbing.jpg" alt="">
+                <h3>Plumbing Services</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/deepclean.jpg" alt="">
+                <h3>Home Cleaning Services</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/electric.jpg" alt="">
+                <h3>Electric Fitting Services</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/pest.jpg" alt="">
+                <h3>Pest Control</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/furniture.jpg" alt="">
+                <h3>Handyman Services</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/door.jpg" alt="">
+                <h3>Window & Door Servicing</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="service-container">
+        <h2>
+            Appliance Repairing Services
+        </h2>
+        <div class="service-flex">
+            <div class="service-items">
+                <img src="media/ac.jpg" alt="">
+                <h3>Air Conditioner Repairing</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/chimney.jpg" alt="">
+                <h3>Kitchen Chimney Repairing</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/electric.jpg" alt="">
+                <h3>Oven Repairing</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/cctv.jpg" alt="">
+                <h3>CCTV Installation & Repairing</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/heater.jpg" alt="">
+                <h3>Water Heater Repairing</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/freez.jpg" alt="">
+                <h3>Freez Repairing</h3>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="service-container">
+        <h2>
+            Home Automation Services
+        </h2>
+        <div class="service-flex">
+            
+            <div class="service-items">
+                <img src="media/lock.jpg" alt="">
+                <h3>Smart Home Lock</h3>
+            </div>
+            <div class="service-items">
+                <img src="media/iot.jpg" alt="">
+                <h3>Automatic Light System</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="newsletter">
+        <h3>Subscribe to our newsletter for Amazing Offers and Information.</h3>
+        <input type="email" placeholder="Enter your email address">
+        <button class="button">Submit</button>
+    </div>
+    
+    </main>
+
+    <footer>
+        <div class="foo1">
+            <img src="media/Logo3.png" alt="logo">
+            <p>We work to ensure people's comfort at their home <br> providing them every service at their fingertips.
+            </p>
+            <span>| Get free estimate</span> <br>
+            <span id="num"> 123-455-7890</span>
+            <!-- <p>Our online scheduling and payment system is safe.</p> -->
+        </div>
+        <div class="foo2">
+            <h6>| Useful links</h6>
+            <ul>
+                <li>  <a href="index.html">
+                     Home 
+                </a></li>
+                <li> <a href="about.html">
+                    About
+                </a></li>
+                <li>  <a href="service.html">
+                    Services
+                </a></li>
+                <li> <a href="#">
+                    FAQ's
+                </a></li>
+                <li>  <a href="about.html">
+                    Locations
+                </a></li>
+                <li>  <a href="#">
+                    Reviews
+                </a></li>
+                <li> <a href="#">
+                    Careers
+                </a></li>
+                <li>  <a href="contact.html">
+                    Contact Us
+                </a></li>
+                <li> <a href="#">
+                    Privacy Policy
+                </a></li>
+                <li>  <a href="#">
+                     Terms & Conditions
+                </a></li>
+            </ul>
+        </div>
+        <div class="foo3"><span>| Social Media</span>
+            <div class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></div>
+            <div class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i> </div>
+            <div class="linkedin"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+            <br>
+            <div id="copyright">
+                <h1> <a href="#">Happy home services pvt. ltd.</a> </h1>
+                copyright &copy;2023.All rights reserved.
+        </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

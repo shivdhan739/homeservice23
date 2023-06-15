@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap" rel="stylesheet">
+    <title>Happy Home Services</title>
+</head>
+
+<body>
+    <!-- header starting -->
+
+    <div class="hero">
+        <div class="navbar">
+            <div class="nav-logo">
+                <a href="index.html"><img src="media/Logo3.png" alt="logo"></a>
+            </div>
+            <i class="fa fa-bars" id="open" onclick="show()" aria-hidden="true"></i>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li id="close" onclick="hide()"> <i class="fa fa-times" aria-hidden="true"></i></li>
+                    <li> <a href="index.html" >
+                            Home
+                        </a></li>
+                    <li><a href="about.html" >
+                            About Us
+                        </a></li>
+                    <li> <a href="service.html">
+                            Services
+                        </a></li>
+                    <li> <a href="pricing.html">
+                            Pricing
+                        </a></li>
+                    <li> <a href="contact.html">
+                            Contact Us
+                        </a></li>
+
+                </ul>
+                <button type="button" class="button"> Request Service </button>
+                <button type="button" class="button"> <a href="signup.html"> Log In</a> </button>
+
+            </div>
+        </div>
+       
+
+    </div>
+
+
+    
+
+    <!-- header ending -->
+<main>
+
+    <div class="about-container">
+        <h1>Know About Us</h1>
+        <div class="about-flex">
+            <img src="media/who.png" alt="">
+            <div class="about-content">
+                <h2>
+                    WHO ARE WE
+                </h2>
+                <p>
+                    We are team of professionals and skilled experts in all domestic spheres.
+        We offer a wide range of Home Maintainance services with any unconventional household needs.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about-flex-2" >
+       
+        <div class="about-content">
+            <h2>
+                WHAT WE DO
+            </h2>
+            <P>
+                We work to ensure people's comfort at their home,and provide the best and fastest at fair prices.
+            </p>
+        </div>
+        <img src="media/what.jpg" alt="">
+    </div>
+
+    <div class="about-flex">
+        <img src="media/why1.jpg" alt="">
+        <div class="about-content">
+            <h2>
+                WHY US
+            </h2>
+            <p>
+                We are experts in Homecare with experience of 15 years.We stand for Quality,safety, and credibility.
+                Our customers are very happy with our service.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+
+    <section>
+        <div class="dashboard">
+            <div><span>1 <br></span> Company</div>
+            <div><span>4 <br></span> Cities</div>
+            <div><span>15 <br> </span>Years</div>
+            <div> <span> 10,000+ <br></span> Happy Customers</div>
+        </div>
+    </section>
+
+    <div class="location-container">
+        <h2>
+            Our Service Locations
+        </h2>
+        <div class="location-flex">
+        
+            <div>Chatrapati Sambhajinagar</div>
+            <div>Mumbai</div>
+            <div>Pune</div>
+            <div>Nashik</div>
+       
+    </div>
+    </div>
+
+
+    <div class="newsletter">
+        <h3>Subscribe to our newsletter for Amazing Offers and Information.</h3>
+        <input type="email" placeholder="Enter your email address">
+        <button class="button">Submit</button>
+    </div>
+
+
+</main>
+
+
+    <!-- footer starting -->
+
+    <footer>
+        <div class="foo1">
+            <a href="index.html"><img src="media/Logo3.png" alt="logo"></a>
+            <p>We work to ensure people's comfort at their home <br> providing them every service at their fingertips.
+            </p>
+            <span>| Get free estimate</span> <br>
+            <span id="num"> 123-455-7890</span>
+            <!-- <p>Our online scheduling and payment system is safe.</p> -->
+        </div>
+        <div class="foo2">
+            <h6>| Useful links</h6>
+            <ul>
+                <li>  <a href="index.html">
+                     Home 
+                </a></li>
+                <li> <a href="about.html">
+                    About
+                </a></li>
+                <li>  <a href="service.html">
+                    Services
+                </a></li>
+                <li> <a href="#">
+                    FAQ's
+                </a></li>
+                <li>  <a href="contact.html">
+                    Locations
+                </a></li>
+                <li>  <a href="#">
+                    Reviews
+                </a></li>
+                <li> <a href="#">
+                    Careers
+                </a></li>
+                <li>  <a href="contact.html">
+                    Contact Us
+                </a></li>
+                <li> <a href="#">
+                    Privacy Policy
+                </a></li>
+                <li>  <a href="#">
+                     Terms & Conditions
+                </a></li>
+            </ul>
+        </div>
+        <div class="foo3"><span>| Social Media</span>
+            <div class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></div>
+            <div class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i> </div>
+            <div class="linkedin"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+            <br>
+            <div id="copyright">
+                <h1> <a href="#">Happy home services pvt. ltd.</a> </h1>
+                copyright &copy;2023.All rights reserved.
+        </div>
+        </div>
+    </footer>
+
+
+    <!-- footer ending -->
+
+    <script>
+
+        var temp = document.getElementById("nav-links");
+        function show() {
+            temp.style.display = "block";
+            document.getElementById("open").style.display = "none"
+
+            return;
+        }
+
+        function hide() {
+            temp.style.display = "none";
+            document.getElementById("open").style.display = "inline-block";
+            return;
+        }
+
+    </script>
+
+</body>
+
+</html>

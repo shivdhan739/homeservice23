@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>Happy Home Services</title>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="navbar">
+            <div class="nav-logo">
+                <a href="index.html"><img src="media/Logo3.png" alt="logo"></a>
+            </div>
+            <i class="fa fa-bars" id="open" onclick="show()" aria-hidden="true"></i>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li id="close" onclick="hide()"> <i class="fa fa-times" aria-hidden="true"></i></li>
+                    <li> <a href="../index.html" >
+                            Home
+                        </a></li>
+                    <li><a href="../about.html">
+                            About Us
+                        </a></li>
+                    <li> <a href="../service.html">
+                            Services
+                        </a></li>
+                    <li> <a href="../pricing.html" id="active">
+                            Pricing
+                        </a></li>
+                    <li> <a href="../contact.html">
+                            Contact Us
+                        </a></li>
+
+                </ul>
+                <button type="button" class="button">Call Now</button>
+                <button type="button" class="button"><a href="../signup.html"> Log in </a> </button>
+
+            </div>
+        </div>
+        <div class="banner-title">
+           <h2>
+               Introducing Monthly Maintainance Subscription
+           </h2>
+            <button type="button" class="button"><a href="../service.html"> Select a Service </a></button>
+        </div>
+    </div>
+
+
+    <script>
+
+        var temp = document.getElementById("nav-links");
+        function show() {
+            temp.style.display = "block";
+            document.getElementById("open").style.display = "none"
+            return;
+        }
+
+        function hide() {
+            temp.style.display = "none";
+            document.getElementById("open").style.display = "inline-block";
+            return;
+        }
+
+    </script>
+
+    <main>
+
+
+    <h1> Choose a pricing plan that fits your needs </h1>
+    <div class="plan-container">
+        <div class="plan-items">
+            <h2>Basic</h2>
+            <h3>
+                &#8377; <b> 500 /-</b>
+            </h3>
+            per month
+            
+            <span>
+                monthly  1 free visit & maintainance
+            </span> 
+            <span>
+                Zero labour charges
+            </span>
+            <span>
+                1 free deepcleaning 
+            </span>
+            <span>5% discount on spare parts</span>
+            <span>24x7 online help desk</span>
+            <button>Select Plan</button>
+        </div>
+    
+
+    
+        <div class="plan-items">
+            <h2>Elite</h2>
+            <h3>
+                &#8377; <b> 1599 /-</b>
+            </h3>
+            per month
+            
+            <span>
+                monthly 3 free visit & maintainance
+            </span> 
+            <span>
+                Zero labour charges
+            </span>
+            <span>
+                1 free deepcleaning 
+            </span>
+            <span>11% discount on spare parts</span>
+            <span>24x7 online help desk</span>
+            <span>Pest control</span>
+            <button>Select Plan</button>
+        </div>
+    
+   
+    
+        <div class="plan-items">
+            <h2>Premium</h2>
+            <h3>
+                &#8377; <b> 999 /-</b>
+            </h3>
+            per month
+            
+            <span>
+                monthly 2 free  visit & maintainance
+            </span> 
+            <span>
+                Zero labour charges
+            </span>
+            <span>
+                2 free deepcleaning 
+            </span>
+            <span>7% discount on spare parts</span>
+            <span>24x7 online help desk</span>
+            <button>Select Plan</button>
+        </div>
+    </div>
+   
+   
+    </main>
+
+    <div class="newsletter">
+        <h3>Subscribe to our newsletter for Amazing Offers and Information.</h3>
+        <input type="email" placeholder="Enter your email address">
+        <button class="button">Submit</button>
+    </div>
+
+    <footer>
+        <div class="foo1">
+            <img src="../media/Logo3.png" alt="logo">
+            <p>We work to ensure people's comfort at their home <br> providing them every service at their fingertips.
+            </p>
+            <span>| Get free estimate</span> <br>
+            <span id="num"> 123-455-7890</span>
+            <p>Our online scheduling and payment system is safe.</p>
+        </div>
+        <div class="foo2">
+            <h6>| Useful links</h6>
+            <ul>
+                <li>  <a href="index.html">
+                     Home 
+                </a></li>
+                <li> <a href="about.html">
+                    About
+                </a></li>
+                <li>  <a href="service.html">
+                    Services
+                </a></li>
+                <li> <a href="#">
+                    FAQ's
+                </a></li>
+                <li>  <a href="#">
+                    Locations
+                </a></li>
+                <li>  <a href="#">
+                    Reviews
+                </a></li>
+                <li> <a href="#">
+                    Careers
+                </a></li>
+                <li>  <a href="contact.html">
+                    Contact Us
+                </a></li>
+                <li> <a href="#">
+                    Privacy Policy
+                </a></li>
+                <li>  <a href="#">
+                     Terms & Conditions
+                </a></li>
+            </ul>
+        </div>
+        <div class="foo3"><span>| Social Media</span>
+            <div class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></div>
+            <div class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i> </div>
+            <div class="linkedin"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+            <br>
+            <div id="copyright">
+                <h1> <a href="index.html">Happy home services pvt. ltd.</a> </h1>
+                copyright &copy;2023.All rights reserved.
+        </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

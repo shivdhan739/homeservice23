@@ -1,0 +1,438 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Rokkitt', serif;
+    box-sizing: border-box;
+    border: 0em;
+  
+}
+
+body{
+    background-color: rgba(129, 85, 85, 0.5);
+}
+
+
+/* header start*/
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)),url(../media/serviceman.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    position: relative;
+    border-radius:0% 0% 10% 10%;
+    
+}
+
+.navbar{
+    display: flex;
+    border-bottom: 1px solid rgb(187, 176, 176);
+    flex-direction: column;
+    background: linear-gradient(rgba(41, 54, 49, 0.551),rgba(129, 85, 85, 0.5));
+}
+
+.navbar  i{
+    position: absolute;
+    right: 5vw;
+    top: 3.3vh;
+    color: white;
+    cursor: pointer;
+    font-size: 3vh;
+    transition: 0.5s;
+    display: block;
+    /* display: none; */
+}
+
+.nav-links {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,1),rgba(75, 132, 185, 0.719));
+    display: none;
+}
+
+#close{
+    margin-bottom: 50px;
+}
+
+.nav-links ul {
+    margin-top: 3vh;
+    /* margin-left: 1vw; */
+}
+
+.nav-links ul li{
+    list-style: none;
+    padding:1vw 1vh;
+    margin: 0 10px;    
+                                  
+}
+
+.nav-links ul a{
+    display: block;
+    text-decoration:none;
+    color: #fff;
+    font-size: 1.3em;
+    margin: 10px;
+     
+}
+
+.nav-links ul li a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+#active{
+    color: yellow;
+}
+
+.button{
+    padding: 0.7vw;
+    font-size: 17px;
+    background-color: yellow;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10mm;
+    transition: 0.2s;
+    box-shadow: -0.2em 0.1em  #19522f;
+}
+
+.button a{
+    text-decoration:none;
+    color: black;
+}
+
+
+.button:hover{
+    /* border-radius: 0; */
+    background-color: rgb(147, 216, 168);
+    box-shadow: none;
+}
+
+.nav-links button {
+    display: block;
+    margin: 3.3vh;
+    width: 25vw;
+   
+}
+
+.banner-title {
+    margin:10vw;
+    color: white;
+}
+   
+.banner-title h2{
+    font-size: 3.5em;
+    margin-bottom: 0.5vh;
+}
+
+
+.banner-title h2 span{
+    color: yellow;
+}
+
+.banner-title button{
+    margin: 6vh 1vw;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+
+/*header endwc.*/
+
+main{
+    text-align: center;
+}
+
+main h1{
+    display: inline-block;
+    margin:6% auto;
+    font-size: 4em;
+    color: rgb(19, 6, 196);
+    width: fit-content;
+    border-bottom:solid green;
+    padding: 1%;
+   
+}
+
+.service-container{
+    width: 90%;
+    margin: 5% auto;
+    box-shadow: 2px 2px 10px 5px black;
+    padding: 2%;
+    background-image: linear-gradient(rgba(71, 30, 30, 0.623),rgba(173, 107, 107, 0.747));
+}
+.service-container h2{
+    display: flex;
+    margin-left: 4%;
+    font-size: 2.3em;
+    color: rgb(4, 20, 56);
+}
+
+.service-flex{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 4%;
+}
+
+.service-items{
+    width: 33%;
+    min-width: 300px;
+    margin: 3%;
+    padding-right: 2%;
+    text-align: center;
+}
+.service-items img{
+    width:100%;
+    min-width: 200px;
+    height: 200px;
+    box-shadow: -2px -2px 10px -6px black;
+}
+
+.service-items h3{
+    display: inline-block;
+    margin:10px 5px;
+  font-size: 1.5em;
+  color: #3b1972;
+}
+
+
+.newsletter{
+    width: 60%;
+    margin: 4% auto;
+    text-align: center;
+    padding: 5%;
+    background-color: rgba(82, 147, 177, 0.74);
+    border-radius: 20mm;
+}
+
+.newsletter h3{
+    font-size: 1.8em;
+}
+
+.newsletter input{
+    width: 70%;
+    font-size: 1.3em;
+    padding: 1%;
+    margin: 3%;
+    border:solid 1px black
+}
+
+
+.newsletter button{
+    border-radius: 0%;
+    box-shadow: none;
+    font-size: 1.3em;
+    padding: 1%;
+    margin: 3% auto;
+    background-color:rgb(117, 177, 83);
+}
+
+
+
+
+/* footer start*/
+
+footer{
+    display: flex;
+    background-color: rgb(15, 9, 15);
+    padding: 3vw;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 15% 15% 0 0;
+}
+
+.foo1{
+    flex-basis: 33%;
+    /* border: solid wheat; */
+    color: wheat;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+
+.foo1 span {
+    display: inline-block;
+    font-size: 20px;
+    margin-left:0.8vw;
+    color: yellowgreen;
+}
+
+.foo1 p {
+    color: rgb(63, 62, 60);
+    font-size: 1.1em;
+    margin-bottom: 1vh;
+    /* margin-top: 1vh; */
+}
+
+#num{
+    font-size:2em ;
+    color: yellow;
+    margin-left: 2vw;
+    margin-bottom: 1vh;
+}
+
+.foo2{
+    flex-basis: 33%;
+    /* border: solid wheat; */
+    color: wheat;
+    padding: 1vh;
+    padding-left: 2vh;
+    
+}
+
+.foo2 h6{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: yellowgreen;
+}
+
+.foo2 ul {
+    list-style-type:square;
+    padding-left: 40px;
+}
+
+.foo2 ul a{
+    font-size: 18px;
+    color: wheat;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.foo3{
+    flex-basis: 33%;
+    padding: 10px;
+    color:yellowgreen;
+    /* text-align: center; */
+}
+
+.foo3 span{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 3vh;
+}
+
+.facebook{
+    display: inline;
+    color:#4267B2;
+    font-size: 4vh;
+    margin: 1vw;
+}
+
+.twitter{
+    display: inline;
+    color:#1DA1F2 ;
+    font-size: 4vh;
+    margin: 1vw;
+}
+
+.linkedin{
+    display: inline;
+    color:#2867B2;
+    font-size: 4vh;
+    margin: 1vw;
+}
+
+#copyright{
+    font-size: 3vh;
+    color: rgb(63, 62, 60);  
+     display: inline-block;
+    margin-top: 0.5vh;
+}
+
+#copyright h1 a{
+    color: wheat; 
+    font-size: 3vh;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*footer end */
+
+
+
+@media only screen and (min-width:1024px){
+    
+    /* header start*/
+
+  
+    
+    .navbar{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around ;
+        background:none;
+        border-bottom:none;
+    }
+   
+    .navbar > img{
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .navbar > i{
+        display: none;
+    }
+    
+    .nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    position: relative;
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9));
+    background-size: 0;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    transition: duration 1s ;
+    }
+    
+    .nav-links ul {
+        display: flex;
+        flex-direction: row;
+        magrin: 0px;
+    }
+    
+    .nav-links ul li{
+        display: inline-block;
+        margin: 0 5px 1vw;  
+        padding: 0vw;                                   
+    }
+    
+    #close{
+        display: none;
+    }
+    
+    .nav-links ul li a{
+        display: inline;
+    }
+
+    .nav-links button {
+        /* display: none; */
+        margin: 0;
+        margin-left: 2vw;
+        font-size: 1.5vw;
+        width: fit-content;
+        height: fit-content;
+        padding: 0.4vw;
+        margin-top: 0.3vw;
+    }
+
+    .banner-title h2{
+        font-size: 4em;
+
+    }
+ footer{
+        flex-direction: row;
+        
+    }
+}
